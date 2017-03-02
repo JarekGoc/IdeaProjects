@@ -47,6 +47,12 @@ public class Main {
         zamiana=odczyt.nextLine();
         s.prn("Kolejne lelementy tablicy:");
         tabik.natab(ciag ,zamiana);
-
+        s.prn("podaj 1 tekst: ");
+        ciag=odczyt.nextLine();
+        s.prn("podaj 2  text: ");
+        zamiana=odczyt.nextLine();
+        s.prn("stringi są:");
+        if (tabik.porwnaj(ciag,zamiana)) s.prn("takie same");
+                else s.prn("inne");
     }
 }

@@ -37,6 +37,11 @@ public class StringOperationHelper {
 
 
     }
+    public Boolean porwnaj(String a, String b){
+        Boolean wynik = a.equalsIgnoreCase(b);
+        return wynik;
 
+
+    }
 
 }
